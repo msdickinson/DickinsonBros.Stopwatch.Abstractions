@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Stopwatch.Abstractions", "DickinsonBros.Stopwatch.Abstractions\DickinsonBros.Stopwatch.Abstractions.csproj", "{EA46550D-07F2-45FA-9487-0151AD4AFA43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Abstractions", "1 Abstractions", "{4CD69182-EA57-4536-A612-1654EB3608BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Scripts", "9 Scripts", "{4D038B82-F139-4503-9A69-97F777706C3E}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\CreateNugetPackagePreRelease.ps1 = Scripts\CreateNugetPackagePreRelease.ps1
+		Scripts\Publish.yml = Scripts\Publish.yml
+		Scripts\Test.yml = Scripts\Test.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA46550D-07F2-45FA-9487-0151AD4AFA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA46550D-07F2-45FA-9487-0151AD4AFA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA46550D-07F2-45FA-9487-0151AD4AFA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA46550D-07F2-45FA-9487-0151AD4AFA43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA46550D-07F2-45FA-9487-0151AD4AFA43} = {4CD69182-EA57-4536-A612-1654EB3608BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2027479B-68DD-4535-83D0-29D665924369}
+	EndGlobalSection
+EndGlobal
